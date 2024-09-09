@@ -69,7 +69,6 @@ body {
 }
 
 img {
-    /* height: 70vh; */
     width: 70vw;
     display: none;
 }
@@ -87,7 +86,21 @@ img {
     cursor: pointer;
 }
 
+.phone_div_arr {
+    width: 200px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .div_but input {
+    cursor: pointer;
+    font-size: 100px;
+    background-color: black;
+}
+
+.phone_div_arr input {
     cursor: pointer;
     font-size: 100px;
     background-color: black;
@@ -114,5 +127,23 @@ img {
     
     .menu_but {
         display: flex;
+    }
+
+    .image {
+        margin-top: 35px;
+        flex-direction: column;
+    }
+
+    .div_but {
+        display: none;
+    }
+
+    .phone_div_arr {
+        display: flex;
+    }
+
+    img {
+        width: 90vw;
+        display: none;
     }
 }
