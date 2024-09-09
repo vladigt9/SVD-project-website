@@ -94,6 +94,18 @@ img {
     align-items: center;
 }
 
+pre {
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: #bd0000;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: monospace;
+    line-height: 1.5;
+}
+
 .div_but input {
     cursor: pointer;
     font-size: 100px;

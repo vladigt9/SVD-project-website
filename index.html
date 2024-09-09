@@ -26,7 +26,28 @@
         </a>
     </header>
 
-    
+    <pre>
+Randomized Range Approximation Algorithm
+    Input: matrix <i><b>A</b></i> of size m <i>x</i> n
+    Return: Q
+
+    Begin
+        Create randomly sampled <i><b>R</b></i> (n <i>x</i> l)
+        
+        <i><b>O</b></i> = <i><b>AR</b></i>
+        Perform <i>QR</i> factorization on <i><b>O</b></i> and obtain <i><b>Q</b></i>
+
+
+        For <i>p</i> power iterations
+            O' = <i><b>AQ</b></i>
+            Obtain Q' from: O' = Q'R'
+            O'' = <i><b>AQ'</b></i>
+            Obtain Q from: O'' = QR
+        End For
+        
+        Return Q
+    End
+    </pre>
 
     <script src="main.js"></script>
 </body>
