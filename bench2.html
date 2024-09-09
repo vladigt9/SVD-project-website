@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randomized SVD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu_but" onclick="show_menu()">
+        Menu
+    </div>
+
+    <header class="navbar" id="navbar">
+        <a href="index.html" class="div_nav">
+            Home
+        </a>
+        <a href="bench1.html" class="div_nav">
+            Benchmark 1
+        </a>
+        <a href="bench2.html" class="div_nav">
+            Benchmark 2
+        </a>
+        <a href="bench3.html" class="div_nav">
+            Benchmark 3
+        </a>
+    </header>
+
+    <div class="image" id="bench1">
+        <div class="div_but" onclick="change_image(false)">
+            <input type="button" value="&lang;">
+        </div>
+        <img id="img_1" src="imaages/sparse_acc/sparse_2000.png" alt="">
+        <img id="img_2" src="imaages/sparse_acc/sparse_4000.png" alt="">
+        <img id="img_3" src="imaages/sparse_acc/sparse_6000.png" alt="">
+        <img id="img_4" src="imaages/sparse_tim_1/8_2000_40000.png" alt="">
+        <img id="img_5" src="imaages/sparse_tim_1/8_2000_50000.png" alt="">
+        <img id="img_6" src="imaages/sparse_tim_1/8_2000_60000.png" alt="">
+        <img id="img_7" src="imaages/sparse_tim_1/8_4000_40000.png" alt="">
+        <img id="img_8" src="imaages/sparse_tim_1/8_4000_50000.png" alt="">
+        <img id="img_9" src="imaages/sparse_tim_1/8_4000_60000.png" alt="">
+        <img id="img_10" src="imaages/sparse_tim_1/8_6000_40000.png" alt="">
+        <img id="img_11" src="imaages/sparse_tim_1/8_6000_50000.png" alt="">
+        <img id="img_12" src="imaages/sparse_tim_1/8_6000_60000.png" alt="">
+        <img id="img_13" src="imaages/sparse_tim_8/8_2000_40000.png" alt="">
+        <img id="img_14" src="imaages/sparse_tim_8/8_2000_50000.png" alt="">
+        <img id="img_15" src="imaages/sparse_tim_8/8_2000_60000.png" alt="">
+        <img id="img_16" src="imaages/sparse_tim_8/8_4000_40000.png" alt="">
+        <img id="img_17" src="imaages/sparse_tim_8/8_4000_50000.png" alt="">
+        <img id="img_18" src="imaages/sparse_tim_8/8_4000_60000.png" alt="">
+        <img id="img_19" src="imaages/sparse_tim_8/8_6000_40000.png" alt="">
+        <img id="img_20" src="imaages/sparse_tim_8/8_6000_50000.png" alt="">
+        <img id="img_21" src="imaages/sparse_tim_8/8_6000_60000.png" alt="">
+        <div class="div_but" onclick="change_image(true)">
+            <input type="button" value="&rang;">
+        </div>
+        <div class="phone_div_arr">
+            <input type="button" value="&lang;" onclick="change_image(false)">
+            <input type="button" value="&rang;" onclick="change_image(true)">
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
