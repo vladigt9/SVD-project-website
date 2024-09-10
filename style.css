@@ -100,10 +100,12 @@ pre {
     font-size: 20px;
     background-color: #bd0000;
     width: fit-content;
+    max-width: 95vw;
     border-radius: 5px;
     padding: 10px;
     font-family: monospace;
     line-height: 1.5;
+    text-wrap: wrap;
 }
 
 .div_but input {
@@ -158,5 +160,9 @@ pre {
     img {
         width: 90vw;
         display: none;
+    }
+
+    pre {
+        font-size: 13px;
     }
 }
